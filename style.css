@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header {
+	background-image: url(images/header-bg-image.png);
+	height: 460px;
+	position: relative;
+	
+}
+
+.logo {
+	text-align: center;
+	font-size: 24px;
+	padding-top: 22px;
+}
+	
+body {
+	margin: auto;
+	font-family: Arial;
+}
+
+header ul.navigation {
+	list-style: none;
+	text-align: center;
+	
+}
+
+header ul.bread-crumbs {
+	list-style: none;
+		
+	text-align: center;
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	right: 0;
+	left: 0;
+}
+
+header ul.bread-crumbs li {
+	display: inline;
+	font-size: 11px;
+	text-align: center;
+	
+}
+
+
+header ul.bread-crumbs li:first-child:before {
+	content: '';
+}
+
+header ul.bread-crumbs li:before {
+	content: url(images/bread-crumb.png);
+	padding-right: 5px;
+}
+
+header ul.navigation li {
+	display: inline;
+	text-transform: uppercase;
+	padding: 11px 9px;
+	
+	
+}
+header ul.navigation li:hover {
+	
+	background-color:#FDFDFD;
+}
+header ul li a {
+	font-size: 13px;
+}
+
+
+.menu-options {
+	color:#BABABA;
+	text-height:3px;
+	text-decoration: none;	
+}
