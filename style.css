@@ -74,3 +74,160 @@ header ul li a {
 	text-height:3px;
 	text-decoration: none;	
 }
+
+.skills {
+	width:100%;
+}
+
+.skills tr td {
+	height: 45px;
+}
+
+.skill-category {
+	width: 100px;
+}
+
+
+
+
+.skill-level-indicator {
+	width: 100%;
+	display:inline-block;
+	border-bottom: 3px solid #46bbcd;
+}
+
+
+.skill-level-indicator.fortypercent {
+	width: 40%;
+}
+
+.skill-level-indicator.sixtypercent {
+	width: 59.6%;
+}
+
+.skill-level-indicator.seventypercent {
+	width: 69.6%;
+}
+
+.skill-level-indicator.black {
+	border-bottom-color: #000;
+}
+
+.skill-level-indicator.thirtypercent {
+	width: 30%;
+}
+.skill-level-indicator.eightyfivepercent {
+	width: 85%;
+}
+
+.skill-level-indicator.twentyfivepercent {
+	width: 14.6%;
+}
+.skill-level-indicator.ninetypercent {
+	width: 90%;
+}
+
+.skill-level-indicator.tenpercent {
+	width: 9.5%;
+}
+
+.wrapper {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.header-alignment {
+	text-align: center;
+	
+	font-weight: normal;
+}
+
+
+#media {
+	
+	margin-top:50px;
+		
+}
+
+#media > div {
+	width:  20%;
+	float: left;
+	height: 100px;
+	padding-top: 170px;
+	text-align:center;
+	padding-bottom: 30px;
+}
+
+#media .percentage {
+	font-size:30px;
+}
+
+.phone {
+	background:url(images/media/phone.png) no-repeat top center;
+}
+
+.phablet {
+	background:url(images/media/phablet.png) no-repeat top center;
+}
+
+.cd {
+	background:url(images/media/cd.png) no-repeat top center;
+}
+.card {
+	background:url(images/media/card.png) no-repeat top center;
+}
+
+.computer {
+	background:url(images/media/screen.png) no-repeat top center;
+}
+
+#content-box > div {
+	height: 200px;
+	width: 278px;
+	float: left;
+	
+	
+	padding-left: 95px;
+	padding-right:  20px;
+}
+
+#content-box > div > p {
+	line-height: 30px;
+	color: #bcbcbc;
+}
+
+.section1 {
+	background: url(images/content-box-images/img1.png) no-repeat top left;
+}
+	
+.section2 {
+	background: url(images/content-box-images/img2.png) no-repeat top left;
+}
+.section3 {
+	background: url(images/content-box-images/img3.png) no-repeat top left;
+}
+.section4 {
+	background: url(images/content-box-images/img4.png) no-repeat top left;
+}
+.section5 {
+	background: url(images/content-box-images/img5.png) no-repeat top left;
+}
+.section6 {
+	background: url(images/content-box-images/img6.png) no-repeat top left;
+}
+
+#content-box-sections > div {
+width: 350px;
+float: left;
+padding-right: 43px;
+}
+
+
+#content-box-sections > div > p {
+	line-height: 30px;
+	color: #bcbcbc;
+}
+
+#content-box-sections > div > h3 {
+	text-align: center;
+}
