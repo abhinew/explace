@@ -231,3 +231,81 @@ padding-right: 43px;
 #content-box-sections > div > h3 {
 	text-align: center;
 }
+
+#content-box > h2 {
+text-align: center;
+}
+
+.meeting {
+	background: url(images/meeting-notes.png) no-repeat top center;
+}
+
+
+.work-hard {
+	background: url(images/work-hard.png) no-repeat top center;
+}
+
+
+.advertisement {
+	background: url(images/advertisement.png) no-repeat top center;
+}
+
+.invoice {
+	background: url(images/invoice.png) no-repeat top center;
+}
+
+
+
+.communication-icons {
+	text-align: center;
+	clear: both;
+}
+
+
+.communication-icons > div {
+	display: inline-block;
+	width: 284px;
+	height: 134px;
+	padding-top: 70px;
+	
+}
+
+.college-stuffs > div {
+	height: 270px;
+	width: 330px;
+	float: left;
+	padding-right: 63px;
+}
+
+.college-stuffs > div > p {
+	line-height: 30px;
+	color: #bcbcbc;
+
+}
+
+.college-stuffs:after {
+	clear: both;
+	content: " ";
+	display: block;
+}
+
+.accordion {
+	width: 100%;
+}
+
+.leftside {
+	border-bottom: 1px solid #E21619;
+}
+
+.rightside {
+	border: 1px solid #E21619;
+}
+
+.accordion-pane-header {
+	width: 450px;
+	
+}
+
+
+
+
